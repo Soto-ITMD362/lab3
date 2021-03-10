@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
 
 html{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Shippori Mincho', Georgia, "Times New Roman",serif;
   font-size: 1.125em;
   background: #808080;
 }
@@ -20,7 +20,7 @@ label {
 }
 
 input {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Shippori Mincho', Georgia, "Times New Roman", serif;
   overflow: visible;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -28,11 +28,6 @@ input {
 
 #finish {
   margin-bottom: 1em;
-}
-
-#wrap input[type="text"] {
-  border-color: transparent;
-  background-color: #808080;
 }
 
 #wrap input[type="email"] {
