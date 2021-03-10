@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.125em;
+  background: #808080;
+}
+
+form{
+  border: transparent;
+}
+
+label {
+  display: block;
+  padding-bottom: 0.25em;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 1em;
+}
+
+input {
+  font-family: 'Playfair Display', serif;
+  overflow: visible;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#finish {
+  margin-bottom: 1em;
+}
+
+#wrap input[type="text"] {
+  border-color: transparent;
+  background-color: #808080;
+}
+
+#wrap input[type="email"] {
+  border-color: transparent;
+  background-color: #808080;
+}
+
+#wrap input[type="date"] {
+  border-color: transparent;
+  background-color: #808080;
+}
+
+#wrap input[type="number"] {
+  border-color: transparent;
+  background-color: #808080;
+}
+
+@media screen and (min-width: 12.6em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 50%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 24.8em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 61em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 83.3em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 300%;
+  }
+}
